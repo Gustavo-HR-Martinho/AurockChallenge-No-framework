@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Blog</title>
+</head>
+<body>
+    <h1 class="mainTitle">Meu blog</h1>
+    <div class="postsContainer" id="postsContainer">
+        <!-- Javascript will put posts here -->
+        Publicar novo post
+        <div class="create-post">
+            <input type="text" name="new-post-title" id="new-post-title" placeholder="Título">
+            <textarea name="new-post-content" id="new-post-content" cols="30" rows="10" placeholder="Post..."></textarea>
+            <button onclick="publishPost()">Publicar post</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/js/dataRenderer.js"></script>
+    <script src="./assets/js/dataCreator.js"></script>
+    </body>
+</html>
